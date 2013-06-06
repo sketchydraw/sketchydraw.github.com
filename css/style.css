@@ -1,0 +1,383 @@
+*
+	{margin: 0;
+	padding: 0;
+	outline: none;}
+
+html
+	{
+	height: 101%;
+	background: #f5f5f5;}
+
+body
+	{font: 100%/1 "Lucida Grande", "Lucida Sans Unicode", "trebuchet ms", helvetica, arial, sans-serif;
+	text-align: center;
+	color: #404040;}
+
+input, select, textarea
+	{font: 100% helvetica, arial, sans-serif;}
+	
+	a img
+		{border: none;}
+	
+section,
+article,
+nav,
+header,
+footer,
+figure,
+aside,
+video,
+audio
+	{display: block;}
+
+time
+	{font-style: italic;}
+
+q:before,
+q:after
+	{content: "";}
+	
+#wrapper {
+	background: #f5f5f5;
+	height: 1500px;
+}
+
+#content article p a {
+	color: #616161;
+}
+
+#content article p a:hover {
+	color: #4154a0;
+}
+
+#container
+	{text-align: left;
+	margin: auto;
+	width: 1020px;
+	font-size: 12px;}
+
+#brand
+	{padding-bottom: 307px;
+	background: transparent url(../images/ui/large-icon.png) 50% 100% no-repeat;}
+
+h1
+	{text-indent: -6957919px;
+	overflow: hidden;
+	height: 190px;
+	background: transparent url(../images/ui/header.png) 50% 20px no-repeat;}
+
+	h1 a
+		{display: block;
+		width: 100%;
+		height: 100%;}
+
+#header
+	{visibility: hidden;}
+
+#inner
+	{display: none;
+	padding-top: 40px;
+	background: transparent url(../images/ui/content-split.png) 0 0 no-repeat;}
+
+#content
+	{padding: 9px 160px 34px;
+	margin-bottom: 30px;
+	line-height: 1.2em;
+	float: left;
+	width: 700px;
+	color: #616161;
+	background: transparent url(../images/ui/content-footer.png) 0 100% no-repeat;}
+
+h2,
+h3
+	{font-size: 15px;
+	font-weight: bold;
+	color: #4154a0;}
+
+h3
+	{color: #404040;}
+	
+	#content p
+		{padding: 10px 0;}
+	
+	
+	#content .highlight
+		{font-size: 15px;
+		line-height: 1.3em;
+		padding-bottom: 40px;}
+
+#content article,
+#content aside
+	{float: left;}
+
+#content article
+	{width: 460px;
+	padding-right: 20px;}
+
+#content aside
+	{width: 220px;
+	margin-top: 10px;}
+
+.buttons
+	{background: transparent url(../images/ui/buttons.gif) 0 0 repeat-y;
+	padding: 0;
+	margin: 0 0 10px 0;}
+	
+	.buttons li
+		{list-style-type: none;
+		width: 220px;
+		height: 49px;
+		position: relative;
+		background: transparent url(../images/ui/icons.png) 10px 10px no-repeat;}
+		
+		.buttons li.purchase
+			{background-position: 10px -62px;}
+		
+		.buttons li a
+			{display: block;
+			width: 174px;
+			height: 21px;
+			padding: 15px 0 10px 46px;
+			font-size: 15px;
+			text-shadow: 0px 1px 0px #fff;
+			font-weight: bold;
+			color: #404040;
+			text-decoration: none;}
+			
+			.buttons li a em
+				{position: absolute;
+				right: 20px;
+				font-style: normal;
+				font-size: 12px;
+				font-weight: normal;}
+				
+			.buttons li a:hover
+			{
+			}
+		
+		.buttons li.static
+			{background: #f5f5f5;
+			color: #919090;
+			font-size: 11px;
+			text-align: center;
+			height: auto;}
+			
+		.buttons li.static a
+		{background: #f5f5f5;
+			color: #919090;
+			font-size: 11px;
+			font-weight: normal;
+			text-decoration: underline;
+			padding: 10px 0px 20px 0px;
+			right: 0;
+			width: 100%;
+			text-align: center;
+			height: auto;}
+
+#counter
+	{float: left;
+	width: 100%;
+	padding: 10px 0 10px 2px;
+	font: bold 34px/34px "ITC Officina Sans", "Lucida Grande", "Lucida Sans Unicode", "trebuchet ms", helvetica, arial, sans-serif;}
+	
+	#counter li
+		{float: left;
+		width: 36px;
+		min-height: 56px;
+		padding: 9px 0 10px;
+		list-style-type: none;
+		text-align: center;
+		background: transparent url(../images/ui/counter.gif) 0 0 no-repeat;}
+
+#screenshot-map
+	{clear: both;
+	display: block;
+	height: 560px;
+	background: transparent url(../images/content/screenshot.png) 50% 30px no-repeat; 
+	padding-top: 30px;
+	position: relative;
+	text-align: center;}
+	
+	#screenshot-map img
+		{visibility: hidden;}
+		
+	#screenshot-map ul li
+		{position: absolute;
+		top: 0;
+		left: 0;
+		width: 200px;
+		list-style-type: none;
+		text-align: left;
+		color: #616161;
+		line-height: 17px;
+		font-size: 90%;}
+		
+		#screenshot-map ul li#switch
+			{top: 12px;
+			left: 170px;
+			z-index: 1;}
+		
+		#screenshot-map ul li#mark
+			{top: 12px;
+			left: 400px;}
+			
+		#screenshot-map ul li#download
+			{top: 12px;
+			left: 675px;}
+		
+		#screenshot-map ul li#create
+			{top: 514px;
+			left: 170px;
+			width: 220px;}
+		
+		#screenshot-map ul li#read
+			{top: 514px;
+			left: 460px;
+			width: 260px;}
+
+#features {
+	background: transparent url(../images/ui/content-split.png) 0 0 no-repeat;
+	padding: 58px 160px 34px 160px;
+	color: #616161;
+}
+
+#features ol
+{
+  width: 700px;  /* room for 3 columns */
+  padding: 0px 0px;
+}
+
+#features ol li
+{
+  float: left;
+  width: 174px;
+  list-style: none;
+  padding: 4px 20px 0px 46px;
+  display: block;
+  height: 100px;
+  font-weight: bold;
+}
+
+#features ol li.shortcuts
+{
+	background: url(../images/ui/icon-shortcuts-32x32.png) 0px 22px no-repeat;
+}
+
+#features ol li.playlists
+{
+	background: url(../images/ui/icon-playlist-B-32x32.png) 0px 22px  no-repeat;
+}
+
+#features ol li.smartlists
+{
+	background: url(../images/ui/icon-smartlist-B-32x32.png) 0px 22px  no-repeat;
+}
+
+#features ol li.lastfm
+{
+	background: url(../images/ui/icon-lastfm.png) 0px 22px  no-repeat;
+}
+
+#features ol li.folder
+{
+	background: url(../images/ui/dp_add_folder.png) 0px 22px  no-repeat;
+}
+
+#features ol li.interface
+{
+	background: url(../images/ui/dp_sidebar.png) 0px 22px  no-repeat;
+}
+
+#features ol li.rightmost
+{
+	padding-right: 0px;
+}
+
+#features ol li p
+{
+	font-weight: normal;
+	padding-top: 8px;;
+	font-size: 90%;
+}
+
+/* stop the floating after the list */
+#features br
+{
+  clear: left;
+}
+			
+#footer {
+	height: 160px;
+	visibility: hidden;
+	background: #404040 url(../images/ui/footer-bg.gif) 0px 0px repeat-x;
+	padding: 25px 0px;
+	color: #fff;
+	width: 100%;
+	overflow: hidden;
+	min-width: 1024px;
+	text-align: left;
+}
+
+#footer .container {
+	width: 700px;
+	margin: auto;
+	font-size: 12px;
+}
+
+#footer #wrap {
+	width: 1024px;
+	margin: auto;
+}
+
+#footer .container a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footer .container .column {
+	width: 218px;
+	float: left;
+	margin-right: 22px;
+	overflow: hidden;
+}
+
+#footer #wrap .container .share-twitter {
+	padding: 18px 0 0px 0;
+}
+
+#footer #wrap .container .share-fb {
+	padding: 10px 0 8px 0;
+}
+
+
+#footer .container .column .twitter 
+{
+	text-indent: -6957919px;
+	overflow: hidden;
+	background: transparent url(../images/ui/footer-twitter.gif) no-repeat scroll 0px 0px;
+	width: 224px;
+}
+
+#footer .container .right {
+	margin-right: 0px;
+}
+
+#footer .container h4 {
+	padding-bottom: 15px;
+}
+
+#footer .container p {
+	line-height: 17px;
+}
+
+#footer #copy {
+	clear: both;
+	padding-top: 32px;
+	text-align: center;
+	font-size: 70%;
+	color: #969696;
+}
+
+#features ol li.lastfm p a {
+	color: #616161;
+}

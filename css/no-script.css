@@ -1,0 +1,8 @@
+#no-js #header
+	{visibility: visible;}
+
+#no-js #inner
+	{display: block;}
+	
+#no-js #footer
+	{visibility: visible;}
